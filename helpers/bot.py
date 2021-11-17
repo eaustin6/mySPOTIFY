@@ -88,8 +88,8 @@ def button_press(update, context):
         if lyrics:
             out = tel.create_page(
                 title="🔊 " + title,
-                author_name="mySPOTIFY",
-                author_url="https://github.com/gautamajay52/mySPOTIFY",
+                author_name="Niaz Cloud",
+                author_url="https://t.me/bearzap",
                 html_content=lyrics,
             )
             url = out["url"]
